@@ -31,7 +31,7 @@ public class ServerApplication {
         @GetMapping("/hello")
         public String hello(@RequestParam String name) {
             log.info("invoked name = " + name);
-            return "hello " + name + ",config:"+title;
+            return "hello " + name + ",configTest:"+title;
         }
     }
 
