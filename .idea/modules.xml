@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nacos.iml" filepath="$PROJECT_DIR$/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config-client/nacos-config-client.iml" filepath="$PROJECT_DIR$/nacos-config-client/nacos-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-client/nacos-discovery-client.iml" filepath="$PROJECT_DIR$/nacos-discovery-client/nacos-discovery-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-client-feign/nacos-discovery-client-feign.iml" filepath="$PROJECT_DIR$/nacos-discovery-client-feign/nacos-discovery-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-client-resttemplate/nacos-discovery-client-resttemplate.iml" filepath="$PROJECT_DIR$/nacos-discovery-client-resttemplate/nacos-discovery-client-resttemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-client-webclient/nacos-discovery-client-webclient.iml" filepath="$PROJECT_DIR$/nacos-discovery-client-webclient/nacos-discovery-client-webclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery-server/nacos-discovery-server.iml" filepath="$PROJECT_DIR$/nacos-discovery-server/nacos-discovery-server.iml" />
+    </modules>
+  </component>
+</project>
