@@ -6,7 +6,7 @@
     <artifactId>server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>server</name>
+    <name>sentinel</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -46,7 +46,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
@@ -66,7 +69,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>0.2.1.RELEASE</version>
+                <version>0.2.2.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

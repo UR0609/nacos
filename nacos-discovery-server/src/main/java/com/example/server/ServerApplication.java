@@ -1,6 +1,6 @@
 package com.example.server;
 
-import com.alibaba.nacos.client.logger.support.LogLog;
+import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -23,15 +23,10 @@ public class ServerApplication {
     @RestController
     @RefreshScope
     static class TestController {
-        private LogLog log;
-
-        @Value("${test.title:}")
-        private String title;
 
         @GetMapping("/hello")
         public String hello(@RequestParam String name) {
-            log.info("invoked name = " + name);
-            return "hello " + name + ",configTest:"+title;
+            return "hello :" + name;
         }
     }
 
