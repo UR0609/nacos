@@ -16,6 +16,8 @@
         <module>nacos-discovery-client-resttemplate</module>
         <module>nacos-discovery-client-webclient</module>
         <module>nacos-config-client</module>
+
+        <module>sentinel</module>
     </modules>
 
 </project>
