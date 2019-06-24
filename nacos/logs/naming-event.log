@@ -1,0 +1,20 @@
+2019-05-31 09:22:08,462 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.25.218:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-05-31 09:22:08,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.25.218:8001_true,
+
+2019-05-31 09:23:38,415 INFO {POS} {IP-DISABLED} valid: 192.168.25.218:8001@DEFAULT, region: unknown, msg: client timeout after 15000, last beat: 1559265802652
+
+2019-05-31 09:23:43,203 INFO service: DEFAULT_GROUP@@nacos-discovery-server {POS} {IP-ENABLED} valid: 192.168.25.218:8001@DEFAULT, region: unknown, msg: client beat ok
+
+2019-05-31 09:24:32,368 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.25.218:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-05-31 09:24:32,368 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 
+
+2019-05-31 09:24:49,406 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.25.218:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-05-31 09:24:49,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.25.218:8001_true,
+
+2019-05-31 09:27:31,699 INFO DEFAULT_GROUP@@nacos-discovery-client-feign {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.25.218:9003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-05-31 09:27:31,699 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-client-feign, ips: 192.168.25.218:9003_true,
+
